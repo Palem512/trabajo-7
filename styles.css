@@ -1,0 +1,109 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+
+/* Menú de navegación */
+nav {
+  background: #222;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu a:hover {
+  background: #8b0000;
+  text-decoration: underline;
+}
+
+/* Listas */
+ul.armas {
+  list-style-type: square;
+  text-align: left;
+  margin: 20px auto;
+  width: 60%;
+}
+
+/* ::before bonus */
+ul.armas li::before {
+  content: "🔫 ";
+}
+
+ol {
+  margin: 20px auto;
+  width: 60%;
+  text-align: left;
+}
+
+dl {
+  margin: 20px auto;
+  width: 60%;
+  text-align: left;
+}
+
+dt {
+  font-weight: bold;
+  color: #ff4444;
+}
+
+dd {
+  margin-left: 20px;
+}
+
+/* Figura */
+figure {
+  margin: 20px auto;
+  width: fit-content;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  background: #8b0000;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* Responsive menú */
+@media (max-width: 600px) {
+  .menu li {
+    display: block;
+    border-bottom: 1px solid #444;
+  }
+}
