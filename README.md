@@ -23,6 +23,6 @@ Las listas permiten estructurar armas, enemigos y personajes, mientras que el me
 3. (Opcional) Publicar en GitHub Pages y compartir el enlace.
 
 ## 👤 Sobre el Autor
-- Nombre: [Tu Nombre]
+- Nombre: Ezequiel Ozan
 - Curso: 6° G - Laboratorio de Programación
-- Contacto: [Tu correo/usuario]
+- Contacto: ezequielozan49@gmail.com
